@@ -1,0 +1,20 @@
+.App {
+    text-align: center;
+}
+
+.down-arrow {
+  width: 3rem;
+  display: inline-block;
+}
+
+.up-arrow {
+  width: 3rem;
+  display: inline-block;
+  transform: rotate(-180deg);
+}
+
+@media only screen and (min-width: 992px) {
+    .down-arrow {
+        display: none;
+    }
+}

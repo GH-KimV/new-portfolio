@@ -1,20 +1,226 @@
+@import '~bootstrap/scss/bootstrap';
+
 .App {
     text-align: center;
+    a {
+        color: black;
+    }
 }
 
+#App {
+    font-family: sans-serif;
+
+    /* Give app full page to work with */
+    height: 100vh;
+}
+
+// Footer arrow svg
 .down-arrow {
-  width: 3rem;
-  display: inline-block;
+    width: 3rem;
+    display: inline-block;
 }
 
 .up-arrow {
-  width: 3rem;
-  display: inline-block;
-  transform: rotate(-180deg);
+    width: 3rem;
+    display: inline-block;
+    transform: rotate(-180deg);
 }
 
+// Sidebar
+#page-wrap {
+    text-align: center;
+    /* Prevent sidebar from showing a scrollbar on page */
+    overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+    display: inline-block;
+
+    /* Our sidebar item styling */
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+    position: fixed;
+    width: 36px;
+    height: 20px;
+    right: 20px;
+    top: 20px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+    background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+    height: 24px;
+    width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+    background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+    padding: 8rem 0;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    a {
+        color: black;
+    }
+    a:hover {
+        border: none;
+    }
+    ul {
+        list-style-type: none;
+        padding: 2rem 0;
+    }
+    li {
+        margin: 2rem 0;
+    }
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+    fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+}
+
+/* Styling of overlay */
+.bm-overlay {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+// Scrollspy
+.is-current {
+    a {
+        opacity: 1;
+        border-bottom: 1px solid black;
+    }
+    a:link {
+        color: black;
+    }
+    a:visited {
+        color: black;
+    }
+    li {
+        color: black;
+    }
+}
+
+// Landscape tablets
+@media only screen and (min-width: 768px) {
+    .App {
+        padding: 1rem;
+    }
+
+    // Scrollspy
+    .is-current {
+        a {
+            opacity: 1;
+        }
+        a:link {
+            color: black;
+        }
+        a:visited {
+            color: black;
+        }
+        li {
+            color: black;
+        }
+    }
+
+    .bm-menu-wrap {
+        top: 0;
+    }
+
+    .bm-menu {
+        border: 1px solid black;
+    }
+}
+
+// Desktop
 @media only screen and (min-width: 992px) {
+    .App {
+        padding: 1rem 1rem 1rem 8rem;
+        a {
+            color: black;
+            opacity: 0;
+        }
+        a:hover {
+            opacity: 1;
+        }
+    }
+
+    // Scrollspy
+    .is-current {
+        list-style-type: disc;
+        a {
+            opacity: 1;
+        }
+        a:link {
+            color: black;
+        }
+        a:visited {
+            color: black;
+        }
+        li {
+            color: black;
+        }
+    }
+
+    // Footer arrow svg
     .down-arrow {
+        display: none;
+    }
+
+    .up-arrow {
+        display: none;
+    }
+
+    // Sidebar
+    .bm-burger-bars {
+        display: none;
+    }
+
+    .bm-menu {
+        text-align: left;
+        padding: 6rem 0;
+        border: none;
+        ul {
+            list-style-type: circle;
+            padding: 1rem;
+        }
+        li {
+            margin: 3rem 0;
+        }
+    }
+
+    .bm-menu-wrap {
+        position: fixed;
+        height: 100%;
+        left: -7rem;
+    }
+
+    .bm-cross-button {
         display: none;
     }
 }

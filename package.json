@@ -11,8 +11,10 @@
     "react": "^16.13.1",
     "react-animate-on-scroll": "^2.1.5",
     "react-bootstrap": "^1.0.1",
+    "react-burger-menu": "^2.6.17",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "react-scrollspy": "^3.4.2"
   },
   "scripts": {
     "start": "react-scripts start",

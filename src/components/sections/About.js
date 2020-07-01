@@ -6,12 +6,97 @@ const About = () => {
     const footerArrowClass = 'down-arrow';
 
     return (
-        <div id='about' className='container'>
+        <div className='container'>
+            <h1>About</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
                 blanditiis cum, reiciendis explicabo soluta similique quibusdam,
                 assumenda ipsam non, tenetur facere asperiores. Maxime ipsum
                 quisquam commodi eligendi repellat eius aperiam!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                blanditiis cum, reiciendis explicabo soluta similique quibusdam,
+                assumenda ipsam non, tenetur facere asperiores. Maxime ipsum
+                quisquam commodi eligendi repellat eius aperiam!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem
+                blanditiis cum, reiciendis explicabo soluta similique quibusdam,
+                assumenda ipsam non, tenetur facere asperiores. Maxime ipsum
+                quisquam commodi eligendi repellat eius aperiam!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos, deleniti neque? Ad iure id tempora debitis ipsa!
+                Dolor, natus cumque, iure minima porro praesentium harum odit
+                provident obcaecati quo distinctio.
             </p>
             <Footer
                 nextSection={nextSection}

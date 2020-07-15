@@ -126,6 +126,36 @@
     }
 }
 
+.homepage {
+    font-family: 'Lato';
+    padding-top: 12rem;
+    .homepage-background {
+        font-family: 'Open Sans';
+        color: rgba(0, 0, 0, 0.05);
+        font-size: 15rem;
+    }
+    .fullname-container {
+        position: relative;
+        bottom: 13rem;
+        h1 {
+            font-size: 4rem;
+        }
+    }
+    .homepage-typing-component {
+        position: relative;
+        bottom: 13rem;
+    }
+    h5 {
+        position: relative;
+        top: 0;
+        font-size: 1.8rem;
+    }
+    .down-arrow {
+        position: relative;
+        bottom: 5rem;
+    }
+}
+
 // Landscape tablets
 @media only screen and (min-width: 768px) {
     .App {
@@ -222,5 +252,27 @@
 
     .bm-cross-button {
         display: none;
+    }
+    .homepage {
+        padding-top: 0;
+        .homepage-background {
+            color: rgba(0, 0, 0, 0.05);
+            font-size: 34rem;
+        }
+        .fullname-container {
+            position: relative;
+            bottom: 28rem;
+            h1 {
+                font-size: 8rem;
+            }
+        }
+
+        .homepage-typing-component {
+            position: relative;
+            bottom: 28rem;
+            h5 {
+                font-size: 4rem;
+            }
+        }
     }
 }
